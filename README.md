@@ -1,24 +1,41 @@
-# README
+# WebCamp Bookers Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails application, likely designed for booking services or resources.
 
-Things you may want to cover:
+## Technologies
 
-* Ruby version
+- Ruby on Rails
+- Ruby
+- JavaScript
 
-* System dependencies
+## Setup and Installation
 
-* Configuration
+1. Clone the repository:
+   ```bash
+   git clone git@github.com:nemdull/webcamp_bookers.git
+   cd webcamp_bookers
+   ```
+2. Install Ruby dependencies:
+   ```bash
+   bundle install
+   ```
+3. Install JavaScript dependencies (if any, check `package.json`):
+   ```bash
+   yarn install # or npm install
+   ```
+4. Database setup:
+   ```bash
+   rails db:create
+   rails db:migrate
+   # rails db:seed (if seed data is available)
+   ```
+5. Run the application:
+   ```bash
+   rails s
+   ```
 
-* Database creation
+## How to Run Tests
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+rails test
+```
